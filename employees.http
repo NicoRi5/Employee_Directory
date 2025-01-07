@@ -2,7 +2,7 @@
 @host=http://localhost:{{port}}
 
 ### GET /
-GET {{host}}
+GET {{host}}/
 
 ### Get all employees
 GET {{host}}/employees
